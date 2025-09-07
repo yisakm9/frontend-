@@ -151,7 +151,6 @@ const App = () => {
             ) : (
                 <div className="signup-container">
                     <h1>Create Account</h1>
-                    <p className="subtitle">Join us and start your journey today.</p>
                     <form onSubmit={handleSubmit} noValidate>
                         <div className="form-group">
                             <label htmlFor="fullName">Full Name</label>
